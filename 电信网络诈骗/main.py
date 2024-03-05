@@ -1,45 +1,25 @@
 import requests
 from bs4 import BeautifulSoup
-import time
 
+url = 'https://baike.baidu.com/item/%E7%94%B5%E4%BF%A1%E8%AF%88%E9%AA%97/6590062?fr=ge_ala'
 headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
                          'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'}
-
-'''
-def get_links(url):
-    response = requests.get(url, headers)
-    soup = BeautifulSoup('response.text', 'lxml')
-    links = soup.select('#content_left')
-    for link in links:
-        href = link.get('href')
-        get_info(href)
 
 
 def get_info(url):
     response = requests.get(url, headers)
-    soup = BeautifulSoup('response.text', 'lxml')
-    texts = soup.find_all('p')
+    soup = BeautifulSoup(response.text, 'lxml')
+    texts = soup.find_all('span')
+    return texts
+
+
+def in_file(texts):
+    f = open('data.txt', 'w')
     for text in texts:
-        print(text.text)
-'''
+        f.write(text.text)
+    f.close()
+
 
 if __name__ == '__main__':
-    keyword = '电信网络诈骗'  # keyword是电信网络诈骗
-    urls = {
-        (f'https://www.baidu.com/s?wd={keyword}&base_query={keyword}&pn={number}'
-         f'&oq={keyword}&tn=15007414_20_dg&ie=utf-8&usm=3')
-        for number in range(0, 50, 10)}
-
-    for url in urls:
-        print(url)
-        response = requests.get(url, headers)
-        soup = BeautifulSoup('response.text', 'lxml')
-        links = soup.find_all('div')
-        print(links)
-
-        '''
-        for link in links:
-            href = link.get('href')
-            print(href)
-        time.sleep(2)
-'''
+    texts=get_info(url)
+    in_file(texts)
