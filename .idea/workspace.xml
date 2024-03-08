@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f54142ff-46a6-4162-b302-bb946d08ef65" name="更改" comment="完善">
-      <change afterPath="$PROJECT_DIR$/斗破苍穹/getInfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/斗破苍穹/getUrl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/糗事百科/main" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/豆瓣图书top250/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/起点中文全部小说/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/酷狗top500/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/酷狗top500/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -37,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.1.executor": "Run",
     "Python.WordCloud.executor": "Run",
     "Python.getInfo.executor": "Run",
     "Python.getUrl (1).executor": "Run",
@@ -56,8 +61,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.getInfo">
-    <configuration name="WordCloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main (2)">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="crawler" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,12 +71,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/电信网络诈骗" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/起点中文全部小说" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/电信网络诈骗/WordCloud.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/起点中文全部小说/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="getUrl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="crawler" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,12 +140,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/斗破苍穹" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/豆瓣图书top250" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="G:\python_project\crawler\斗破苍穹\getUrl.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/豆瓣图书top250/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,12 +163,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/酷狗top500" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/起点中文全部小说" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/酷狗top500/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/起点中文全部小说/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.1" />
         <item itemvalue="Python.getInfo" />
         <item itemvalue="Python.getUrl (1)" />
-        <item itemvalue="Python.getUrl" />
-        <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.WordCloud" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +231,10 @@
       <workItem from="1709626199591" duration="13223000" />
       <workItem from="1709639565563" duration="840000" />
       <workItem from="1709690268417" duration="11067000" />
-      <workItem from="1709722586387" duration="2786000" />
+      <workItem from="1709722586387" duration="4352000" />
+      <workItem from="1709780265610" duration="1434000" />
+      <workItem from="1709799329664" duration="13887000" />
+      <workItem from="1709869146651" duration="8005000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -260,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709640284522</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="完善">
+      <option name="closed" value="true" />
+      <created>1709725383670</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709725383670</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,10 +300,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/crawler$WordCloud.coverage" NAME="WordCloud 覆盖结果" MODIFIED="1709617857895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/电信网络诈骗" />
+    <SUITE FILE_PATH="coverage/crawler$1.coverage" NAME="1 覆盖结果" MODIFIED="1709885072669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/起点中文全部小说" />
     <SUITE FILE_PATH="coverage/crawler$getUrl__1_.coverage" NAME="getUrl (1) 覆盖结果" MODIFIED="1709723193099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/斗破苍穹" />
     <SUITE FILE_PATH="coverage/crawler$getInfo.coverage" NAME="getInfo 覆盖结果" MODIFIED="1709725089775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/斗破苍穹" />
-    <SUITE FILE_PATH="coverage/crawler$main__1_.coverage" NAME="main (1) 覆盖结果" MODIFIED="1709616451980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/电信网络诈骗" />
     <SUITE FILE_PATH="coverage/crawler$main__3_.coverage" NAME="main (3) 覆盖结果" MODIFIED="1709721419919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/斗破苍穹" />
-    <SUITE FILE_PATH="coverage/crawler$main__2_.coverage" NAME="main (2) 覆盖结果" MODIFIED="1709640170891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/酷狗top500" />
+    <SUITE FILE_PATH="coverage/crawler$main__1_.coverage" NAME="main (1) 覆盖结果" MODIFIED="1709886127990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/豆瓣图书top250" />
+    <SUITE FILE_PATH="coverage/crawler$main__2_.coverage" NAME="main (2) 覆盖结果" MODIFIED="1709886643994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/起点中文全部小说" />
   </component>
 </project>
